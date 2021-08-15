@@ -9,7 +9,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const passField = document.getElementById('user-pass');
     const passValue = passField.value;
     if (emailValue == 'abc@gmail.com' && passValue == 'abc123') {
-        window.location.href = 'home.html';
+        window.location.href = 'home/home.html';
     }
     else {
         window.alert('wrong password');
